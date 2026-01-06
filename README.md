@@ -4,7 +4,7 @@ AWSアーキテクチャ図をmermaidで書いてみる
 参考: <https://qiita.com/b-mente/items/89e900dab7319ef502be>
 
 ```mermaid
-graph TB
+flowchart TB
 
 subgraph ACCOUNT[AWS Account 123456789012]
   ELB@{ img: "https://api.iconify.design/logos/aws-elb.svg", label: "ELB", pos: "b", h: 60, constraint: "on" }
