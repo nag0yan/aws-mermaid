@@ -4,6 +4,7 @@ AWSアーキテクチャ図をmermaidで書いてみる
 参考: <https://qiita.com/b-mente/items/89e900dab7319ef502be>
 
 ```mermaid
+info
 flowchart TB
 
 subgraph ACCOUNT[AWS Account 123456789012]
